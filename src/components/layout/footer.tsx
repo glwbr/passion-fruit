@@ -164,8 +164,7 @@ export function Footer() {
 
         <div className="border-t py-6">
           <p className="text-center text-sm text-muted-foreground">
-            © {currentYear} Atraídos Pela Cruz. Todos os direitos
-            reservados.
+            © {currentYear} Atraídos Pela Cruz. Todos os direitos reservados.
           </p>
         </div>
       </div>

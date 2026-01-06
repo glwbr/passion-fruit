@@ -27,7 +27,7 @@ export function ThemeProvider({
   storageKey = "apc-ui-theme",
 }: ThemeProviderProps) {
   const [theme, setTheme] = React.useState<Theme>(
-    () => (localStorage.getItem(storageKey) as Theme) || defaultTheme
+    () => (localStorage.getItem(storageKey) as Theme) || defaultTheme,
   );
 
   React.useEffect(() => {

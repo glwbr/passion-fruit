@@ -1,15 +1,14 @@
-import { createFileRoute, Link } from '@tanstack/react-router';
-import { ArrowRight, Calendar, BookOpen, Users } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Section } from '@/components/shared/section';
-import { ContributeDialog } from '@/components/contribute-dialog';
+import { createFileRoute, Link } from "@tanstack/react-router";
+import { ArrowRight, Calendar, BookOpen, Users } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Section } from "@/components/shared/section";
+import { ContributeDialog } from "@/components/contribute-dialog";
 
-export const Route = createFileRoute('/')({
+export const Route = createFileRoute("/")({
   component: HomePage,
 });
 
 function HomePage() {
-
   return (
     <>
       <section className="relative overflow-hidden bg-linear-to-br from-primary/5 via-background to-primary/10 py-20 md:py-32">
@@ -17,8 +16,7 @@ function HomePage() {
         <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
           <div className="max-w-3xl mx-auto text-center space-y-6 animate-in">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight">
-              Atraídos{' '}
-              <span className="text-primary">Pela Cruz</span>
+              Atraídos <span className="text-primary">Pela Cruz</span>
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto">
               Uma igreja comprometida com a proclamação do evangelho de Cristo
@@ -51,7 +49,9 @@ function HomePage() {
                   Programação
                 </span>
               </div>
-              <h2 className="text-2xl sm:text-3xl font-bold">Próximos Eventos</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold">
+                Próximos Eventos
+              </h2>
             </div>
             <Button variant="ghost" asChild className="hidden sm:flex">
               <Link to="/">
@@ -61,10 +61,10 @@ function HomePage() {
             </Button>
           </div>
 
-            <div className="text-center py-12 text-muted-foreground">
-              <Calendar className="h-12 w-12 mx-auto mb-4 opacity-50" />
-              <p>Nenhum evento programado no momento.</p>
-            </div>
+          <div className="text-center py-12 text-muted-foreground">
+            <Calendar className="h-12 w-12 mx-auto mb-4 opacity-50" />
+            <p>Nenhum evento programado no momento.</p>
+          </div>
 
           <div className="sm:hidden">
             <Button variant="outline" asChild className="w-full">
@@ -87,7 +87,9 @@ function HomePage() {
                   Sermões
                 </span>
               </div>
-              <h2 className="text-2xl sm:text-3xl font-bold">Últimos Sermões</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold">
+                Últimos Sermões
+              </h2>
             </div>
             <Button variant="ghost" asChild className="hidden sm:flex">
               <Link to="/">
@@ -117,11 +119,10 @@ function HomePage() {
                 Ministérios
               </span>
             </div>
-            <h2 className="text-2xl sm:text-3xl font-bold">
-              Sirva Conosco
-            </h2>
+            <h2 className="text-2xl sm:text-3xl font-bold">Sirva Conosco</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Descubra como você pode usar seus dons para servir a Deus e à Sua igreja.
+              Descubra como você pode usar seus dons para servir a Deus e à Sua
+              igreja.
             </p>
           </div>
 
@@ -138,18 +139,14 @@ function HomePage() {
 
       <Section className="bg-primary text-primary-foreground">
         <div className="text-center space-y-6">
-          <h2 className="text-2xl sm:text-3xl font-bold">
-            Venha nos visitar!
-          </h2>
+          <h2 className="text-2xl sm:text-3xl font-bold">Venha nos visitar!</h2>
           <p className="max-w-2xl mx-auto text-primary-foreground/90">
             Será uma alegria recebê-lo em nossos cultos. Venha fazer parte desta
             família e crescer conosco na fé.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="secondary" size="lg" asChild>
-              <Link to="/">
-                Entre em contato
-              </Link>
+              <Link to="/">Entre em contato</Link>
             </Button>
             <Button
               variant="outline"
@@ -157,9 +154,7 @@ function HomePage() {
               asChild
               className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
             >
-              <Link to="/">
-                Conheça nossa história
-              </Link>
+              <Link to="/">Conheça nossa história</Link>
             </Button>
           </div>
         </div>
@@ -167,4 +162,3 @@ function HomePage() {
     </>
   );
 }
-
