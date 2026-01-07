@@ -1,0 +1,67 @@
+[
+  {
+    "id": "louvor",
+    "name": "Ministério de Louvor",
+    "description": "Responsável por conduzir a igreja em momentos de adoração através da música. Buscamos exaltar o nome de Deus com excelência e unção.",
+    "icon": "Music",
+    "leader": "Lucas Oliveira",
+    "schedule": "Ensaios às quartas-feiras, 20h"
+  },
+  {
+    "id": "jovens",
+    "name": "Ministério de Jovens",
+    "description": "Alcançando e discipulando a juventude, preparando jovens para viverem os princípios do Reino de Deus em todas as áreas da vida.",
+    "icon": "Users",
+    "leader": "André Costa",
+    "schedule": "Sábados, 19h"
+  },
+  {
+    "id": "criancas",
+    "name": "Ministério Infantil",
+    "description": "Cuidando das crianças com amor e ensinando a Palavra de Deus de forma lúdica e apropriada para cada faixa etária.",
+    "icon": "Baby",
+    "leader": "Ana Paula Lima",
+    "schedule": "Domingos, durante o culto"
+  },
+  {
+    "id": "mulheres",
+    "name": "Ministério de Mulheres",
+    "description": "Fortalecendo e edificando as mulheres através de encontros, estudos bíblicos e comunhão, ajudando-as a cumprir seu chamado em Cristo.",
+    "icon": "Heart",
+    "leader": "Pra. Maria Santos",
+    "schedule": "Segundas-feiras, 19h30"
+  },
+  {
+    "id": "homens",
+    "name": "Ministério de Homens",
+    "description": "Desafiando homens a serem líderes espirituais em seus lares e na sociedade, através de discipulado e companheirismo.",
+    "icon": "Shield",
+    "leader": "Carlos Mendes",
+    "schedule": "Terças-feiras, 19h30"
+  },
+  {
+    "id": "intercessao",
+    "name": "Ministério de Intercessão",
+    "description": "Guerreiros de oração que sustentam a igreja e seus membros através da intercessão constante perante o trono de Deus.",
+    "icon": "HandHeart",
+    "leader": "Dona Rosa Silva",
+    "schedule": "Diariamente, 6h"
+  },
+  {
+    "id": "casais",
+    "name": "Ministério de Casais",
+    "description": "Fortalecendo matrimônios através de encontros, retiros e aconselhamento, edificando famílias sobre o fundamento da Palavra.",
+    "icon": "HeartHandshake",
+    "leader": "Pr. João e Pra. Maria Silva",
+    "schedule": "Último sábado do mês, 19h"
+  },
+  {
+    "id": "midia",
+    "name": "Ministério de Mídia",
+    "description": "Utilizando as ferramentas de comunicação para expandir o alcance do evangelho através das redes sociais, transmissões e produções audiovisuais.",
+    "icon": "Video",
+    "leader": "Felipe Nascimento",
+    "schedule": "Conforme escala"
+  }
+]
+
